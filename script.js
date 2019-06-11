@@ -1,6 +1,6 @@
 function checkValidateAccount() {
     let input = prompt("Nhập Account : ");
-    let patt = /[_a-z0-9]{6,}$/;
+    let patt = /^[_a-z0-9]{6,}$/;
 
     let result = patt.test(input);
 
